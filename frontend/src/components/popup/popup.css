@@ -1,0 +1,50 @@
+.popUpContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.645);
+  position: absolute;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  border: 2px solid black;
+  background-color: rgb(231, 224, 224);
+  border-radius: 2rem;
+}
+.box p{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.Buttuns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cancelBtn,
+.yesBtn {
+  border: 1px solid red;
+  border-radius: 2rem;
+  padding: 5px 20px;
+}
+
+.cancelBtn:hover{
+    background-color: green;
+    color: white;
+}
+
+
+.yesBtn:hover{
+    background-color: red;
+    color: white;
+}
